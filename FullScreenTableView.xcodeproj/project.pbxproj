@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7B9E40F14E483D00026CBBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B9E40E14E483D00026CBBA /* UIKit.framework */; };
+		D7B9E41114E483D00026CBBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B9E41014E483D00026CBBA /* Foundation.framework */; };
+		D7B9E41314E483D00026CBBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B9E41214E483D00026CBBA /* CoreGraphics.framework */; };
+		D7B9E41914E483D00026CBBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B9E41714E483D00026CBBA /* InfoPlist.strings */; };
+		D7B9E41B14E483D00026CBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E41A14E483D00026CBBA /* main.m */; };
+		D7B9E41F14E483D00026CBBA /* LCYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E41E14E483D00026CBBA /* LCYAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7B9E40A14E483D00026CBBA /* FullScreenTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullScreenTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B9E40E14E483D00026CBBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D7B9E41014E483D00026CBBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7B9E41214E483D00026CBBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7B9E41614E483D00026CBBA /* FullScreenTableView-Info.plist */ = {isa = PBXFileReference; path = "FullScreenTableView-Info.plist"; sourceTree = "<group>"; };
+		D7B9E41814E483D00026CBBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7B9E41A14E483D00026CBBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7B9E41C14E483D00026CBBA /* FullScreenTableView-Prefix.pch */ = {isa = PBXFileReference; path = "FullScreenTableView-Prefix.pch"; sourceTree = "<group>"; };
+		D7B9E41D14E483D00026CBBA /* LCYAppDelegate.h */ = {isa = PBXFileReference; path = LCYAppDelegate.h; sourceTree = "<group>"; };
+		D7B9E41E14E483D00026CBBA /* LCYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7B9E40714E483D00026CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B9E40F14E483D00026CBBA /* UIKit.framework in Frameworks */,
+				D7B9E41114E483D00026CBBA /* Foundation.framework in Frameworks */,
+				D7B9E41314E483D00026CBBA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7B9E3FF14E483D00026CBBA = {
+			isa = PBXGroup;
+			children = (
+				D7B9E41414E483D00026CBBA /* FullScreenTableView */,
+				D7B9E40D14E483D00026CBBA /* Frameworks */,
+				D7B9E40B14E483D00026CBBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7B9E40B14E483D00026CBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E40A14E483D00026CBBA /* FullScreenTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7B9E40D14E483D00026CBBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E40E14E483D00026CBBA /* UIKit.framework */,
+				D7B9E41014E483D00026CBBA /* Foundation.framework */,
+				D7B9E41214E483D00026CBBA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7B9E41414E483D00026CBBA /* FullScreenTableView */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E41D14E483D00026CBBA /* LCYAppDelegate.h */,
+				D7B9E41E14E483D00026CBBA /* LCYAppDelegate.m */,
+				D7B9E41514E483D00026CBBA /* Supporting Files */,
+			);
+			path = FullScreenTableView;
+			sourceTree = "<group>";
+		};
+		D7B9E41514E483D00026CBBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E41614E483D00026CBBA /* FullScreenTableView-Info.plist */,
+				D7B9E41714E483D00026CBBA /* InfoPlist.strings */,
+				D7B9E41A14E483D00026CBBA /* main.m */,
+				D7B9E41C14E483D00026CBBA /* FullScreenTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7B9E40914E483D00026CBBA /* FullScreenTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B9E42214E483D00026CBBA /* Build configuration list for PBXNativeTarget "FullScreenTableView" */;
+			buildPhases = (
+				D7B9E40614E483D00026CBBA /* Sources */,
+				D7B9E40714E483D00026CBBA /* Frameworks */,
+				D7B9E40814E483D00026CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullScreenTableView;
+			productName = FullScreenTableView;
+			productReference = D7B9E40A14E483D00026CBBA /* FullScreenTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7B9E40114E483D00026CBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D7B9E40414E483D00026CBBA /* Build configuration list for PBXProject "FullScreenTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7B9E3FF14E483D00026CBBA;
+			productRefGroup = D7B9E40B14E483D00026CBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7B9E40914E483D00026CBBA /* FullScreenTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7B9E40814E483D00026CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B9E41914E483D00026CBBA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7B9E40614E483D00026CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B9E41B14E483D00026CBBA /* main.m in Sources */,
+				D7B9E41F14E483D00026CBBA /* LCYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7B9E41714E483D00026CBBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7B9E41814E483D00026CBBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7B9E42014E483D00026CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D7B9E42114E483D00026CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7B9E42314E483D00026CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FullScreenTableView/FullScreenTableView-Prefix.pch";
+				INFOPLIST_FILE = "FullScreenTableView/FullScreenTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7B9E42414E483D00026CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FullScreenTableView/FullScreenTableView-Prefix.pch";
+				INFOPLIST_FILE = "FullScreenTableView/FullScreenTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7B9E40414E483D00026CBBA /* Build configuration list for PBXProject "FullScreenTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B9E42014E483D00026CBBA /* Debug */,
+				D7B9E42114E483D00026CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B9E42214E483D00026CBBA /* Build configuration list for PBXNativeTarget "FullScreenTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B9E42314E483D00026CBBA /* Debug */,
+				D7B9E42414E483D00026CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7B9E40114E483D00026CBBA /* Project object */;
+}
