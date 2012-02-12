@@ -13,6 +13,8 @@
 		D7B9E41914E483D00026CBBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B9E41714E483D00026CBBA /* InfoPlist.strings */; };
 		D7B9E41B14E483D00026CBBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E41A14E483D00026CBBA /* main.m */; };
 		D7B9E41F14E483D00026CBBA /* LCYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E41E14E483D00026CBBA /* LCYAppDelegate.m */; };
+		D7B9E42814E4865E0026CBBA /* LCYFullTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E42614E4865E0026CBBA /* LCYFullTableViewController.m */; };
+		D7B9E42914E4865E0026CBBA /* LCYFullTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B9E42714E4865E0026CBBA /* LCYFullTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		D7B9E40E14E483D00026CBBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D7B9E41014E483D00026CBBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7B9E41214E483D00026CBBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D7B9E41614E483D00026CBBA /* FullScreenTableView-Info.plist */ = {isa = PBXFileReference; path = "FullScreenTableView-Info.plist"; sourceTree = "<group>"; };
+		D7B9E41614E483D00026CBBA /* FullScreenTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullScreenTableView-Info.plist"; sourceTree = "<group>"; };
 		D7B9E41814E483D00026CBBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7B9E41A14E483D00026CBBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7B9E41C14E483D00026CBBA /* FullScreenTableView-Prefix.pch */ = {isa = PBXFileReference; path = "FullScreenTableView-Prefix.pch"; sourceTree = "<group>"; };
-		D7B9E41D14E483D00026CBBA /* LCYAppDelegate.h */ = {isa = PBXFileReference; path = LCYAppDelegate.h; sourceTree = "<group>"; };
+		D7B9E41C14E483D00026CBBA /* FullScreenTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FullScreenTableView-Prefix.pch"; sourceTree = "<group>"; };
+		D7B9E41D14E483D00026CBBA /* LCYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCYAppDelegate.h; sourceTree = "<group>"; };
 		D7B9E41E14E483D00026CBBA /* LCYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCYAppDelegate.m; sourceTree = "<group>"; };
+		D7B9E42514E4865E0026CBBA /* LCYFullTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYFullTableViewController.h; sourceTree = "<group>"; };
+		D7B9E42614E4865E0026CBBA /* LCYFullTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYFullTableViewController.m; sourceTree = "<group>"; };
+		D7B9E42714E4865E0026CBBA /* LCYFullTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYFullTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 				D7B9E41D14E483D00026CBBA /* LCYAppDelegate.h */,
 				D7B9E41E14E483D00026CBBA /* LCYAppDelegate.m */,
 				D7B9E41514E483D00026CBBA /* Supporting Files */,
+				D7B9E42514E4865E0026CBBA /* LCYFullTableViewController.h */,
+				D7B9E42614E4865E0026CBBA /* LCYFullTableViewController.m */,
+				D7B9E42714E4865E0026CBBA /* LCYFullTableViewController.xib */,
 			);
 			path = FullScreenTableView;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B9E41914E483D00026CBBA /* InfoPlist.strings in Resources */,
+				D7B9E42914E4865E0026CBBA /* LCYFullTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				D7B9E41B14E483D00026CBBA /* main.m in Sources */,
 				D7B9E41F14E483D00026CBBA /* LCYAppDelegate.m in Sources */,
+				D7B9E42814E4865E0026CBBA /* LCYFullTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

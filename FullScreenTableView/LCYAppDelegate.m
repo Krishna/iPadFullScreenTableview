@@ -7,22 +7,32 @@
 //
 
 #import "LCYAppDelegate.h"
+#import "LCYFullTableViewController.h"
 
 @implementation LCYAppDelegate
 
 @synthesize window = _window;
+@synthesize navigationController = _navigationController;
 
 - (void)dealloc
 {
+    [_navigationController release];
     [_window release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIViewController *masterViewController = [[[LCYFullTableViewController alloc] initWithNibName:@"LCYFullTableViewController" bundle:nil] autorelease];    
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+        
+    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:masterViewController] autorelease];
+    self.window.rootViewController = self.navigationController;
+        
     [self.window makeKeyAndVisible];
     return YES;
 }
